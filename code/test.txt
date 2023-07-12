@@ -1,0 +1,1 @@
+let x:= fn (n::int) => let y:= fun test (z::int)::int => if z=0 then n else if z=1 then 1 else (test (z-2)) fi fi end in (y 100) end end in (x 5) end;

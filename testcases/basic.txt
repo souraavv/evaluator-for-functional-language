@@ -1,0 +1,8 @@
+let v := 10 + 9 - 99 * 3
+in
+let w := ((v > 10) && (v < 100)) ^ false && (false || true)
+in
+if !w then v+41 else ~v * (1+v) fi
+end
+end;
+

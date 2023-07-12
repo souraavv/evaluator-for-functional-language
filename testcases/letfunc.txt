@@ -1,0 +1,8 @@
+let v := 10 + (fn (x::int) => x*(x+1) end 20)
+in
+let w := 100
+in
+v+w
+end
+end;
+

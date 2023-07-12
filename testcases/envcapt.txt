@@ -1,0 +1,4 @@
+let add := fn (a::int) => fn (b::int) => a+b end end
+in
+((add 50) 40)
+end;

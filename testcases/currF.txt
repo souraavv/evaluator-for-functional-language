@@ -1,0 +1,4 @@
+let currF := fun currF (x :: int) :: int -> int => if x = 0 then fn (y::int) => y+1 end else fn (y::int) => y-1 end fi end
+in
+((currF 0) 10) + ((currF 1) 10)
+end;
